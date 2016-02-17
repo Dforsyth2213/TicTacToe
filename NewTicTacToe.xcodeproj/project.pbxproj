@@ -14,6 +14,7 @@
 		3FD1B7111C739CC900B90522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1B70F1C739CC900B90522 /* LaunchScreen.storyboard */; };
 		3FD1B71C1C739CC900B90522 /* NewTicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1B71B1C739CC900B90522 /* NewTicTacToeTests.swift */; };
 		3FD1B7271C739CC900B90522 /* NewTicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1B7261C739CC900B90522 /* NewTicTacToeUITests.swift */; };
+		3FD1B7351C739FD900B90522 /* GridLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1B7341C739FD900B90522 /* GridLabel.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3FD1B7221C739CC900B90522 /* NewTicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewTicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD1B7261C739CC900B90522 /* NewTicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTicTacToeUITests.swift; sourceTree = "<group>"; };
 		3FD1B7281C739CC900B90522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD1B7341C739FD900B90522 /* GridLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				3FD1B7061C739CC900B90522 /* AppDelegate.swift */,
 				3FD1B7081C739CC900B90522 /* ViewController.swift */,
 				3FD1B70A1C739CC900B90522 /* Main.storyboard */,
+				3FD1B7341C739FD900B90522 /* GridLabel.swift */,
 				3FD1B70D1C739CC900B90522 /* Assets.xcassets */,
 				3FD1B70F1C739CC900B90522 /* LaunchScreen.storyboard */,
 				3FD1B7121C739CC900B90522 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD1B7351C739FD900B90522 /* GridLabel.swift in Sources */,
 				3FD1B7091C739CC900B90522 /* ViewController.swift in Sources */,
 				3FD1B7071C739CC900B90522 /* AppDelegate.swift in Sources */,
 			);
